@@ -1,0 +1,23 @@
+                                         GIT BRANCHING
+1  create an empty directory   assigments (create new folder on desktop )
+  pwd
+  cd assigment
+2 create new README.txt file inside assignment folder and also write few lines in that file.
+3 commit README.txt file
+  by using git init
+           git commit
+4 now create a new branch 'html-assignments'
+ by creating a new branchby using branch command i.e
+  git branch html-assignment (new branch )
+  git checkout html-assignment
+5 copy all html assignments inside assignment folder.
+
+6 commit html assignments into html-assignment branch.
+7 make a minor changes into html-assignment branch.
+8 commit those files
+9 switch to master branch.
+  git switch feature\A
+10 make minorchanges into README.txt file and commit
+11 again switch to html-assigments branch
+12  merge
+  bys using git merge new-branch   --->to merge the new feature into thee master branch.
